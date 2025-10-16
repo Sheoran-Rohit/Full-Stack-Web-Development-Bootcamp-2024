@@ -9,25 +9,43 @@
     .flag{
       height:600px;
       width:900px;
-      font-size: 50px;
-      text-align: center;
+      position: relative ;
       background-color: #CE1126;
     }
     
-    div div p{
-      background-color: white;
-      height:200px;
-      width:200px;
-      margin-top: 150px;
-      margin-left: 350px;
-      border-radius: 50%;
-      text-align: center;
-      
-    }div p div{
-      background-color: green;
-      height: 300px;
+    .flag>div {
+    background-color:#002868;
+    height: 300px;
+    width:100%;
+    
+    position: absolute ;
+    top:150px;
     }
     
+    .flag > div>div{
+      background-color: white;
+      
+      border-radius: 50%;
+      height:200px;
+      width:200px;
+      
+      position: absolute ;
+      left:350px;
+      top:50px;
+    }
+    
+    p{
+      color:white;
+      font-size: 5rem;
+      text-align: center;
+      margin: 0;
+      padding:0;
+    }
+    
+    .flag>div div p{
+      color:black;
+    }
+  
   </style>
 </head>
 
